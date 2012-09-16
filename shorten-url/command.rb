@@ -16,7 +16,7 @@ command 'Shorten URL' do |cmd|
     if (selection.nil? || selection.empty?) then
       options = {
         :title => "Enter URL",
-        :prompt => "Enter URL for shortenning",
+        :prompt => "Enter URL for shortening",
         :button1 => "Ok",
         :button2 => "Cancel",
       }
@@ -37,7 +37,7 @@ command 'Shorten URL' do |cmd|
     end
 
      if (gdResponse.code != '200') then
-       Ruble::Logger.log_error "Error while shortenning the selected URL..."
+       Ruble::Logger.log_error "Error while shortening the selected URL..."
        Ruble::Logger.log_error gdResponse.body
        context.exit_discard()
      end
