@@ -1,6 +1,3 @@
-clear-console
-============
-
 ### Description
 
 This is a function to clear the Aptana Scripting Console view

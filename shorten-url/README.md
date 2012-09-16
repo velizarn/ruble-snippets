@@ -1,5 +1,3 @@
-shorten-url
-============
 Shorten URL command for Aptana rubles.
 
 This command creates shortened URLs using http://is.gd/ API. It takes the input argument as an URL and sends it to clipboard.
