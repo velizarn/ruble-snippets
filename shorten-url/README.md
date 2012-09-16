@@ -2,7 +2,7 @@ shorten-url
 ============
 
 This command creates shortened URLs using http://is.gd/ API
-Takes the input argument as an URL and sends it to cliepboard
+Takes the input argument as an URL and sends it to clipboard
 
 http://is.gd/index.php
 http://is.gd/faq.php
