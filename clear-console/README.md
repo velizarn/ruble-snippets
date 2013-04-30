@@ -1,6 +1,6 @@
 ### Description
 
-This is a function to clear the Aptana Scripting Console view
+This is a function to clear the Aptana/Titanium Scripting Console view
 
 ### How to use
 
@@ -14,7 +14,7 @@ java_import org.eclipse.ui.console.IConsole
 def clearCosole()
   consoleCollection = ConsolePlugin.getDefault().getConsoleManager().getConsoles()
   consoleCollection.each {|console|
-    console.clearConsole() if console.getType() == "org.eclipse.ui.MessageConsole" && ["Aptana Scripting Console", "Studio Console"].include?(console.getName().to_s)
+    console.clearConsole() if console.getType() == "org.eclipse.ui.MessageConsole" && ["Studio Console", "Titanium Scripting Console", "Aptana Scripting Console"].include?(console.getName().to_s)
   }
 end
 
